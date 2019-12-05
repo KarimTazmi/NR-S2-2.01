@@ -276,6 +276,10 @@
     list-style: none;
 }
 
+.future-project-items li:hover {
+    text-decoration: none;
+}
+
 .future-project-items li::after {
     content: "↗";
     padding-left: 5px;
@@ -288,16 +292,69 @@
     opacity: 1;
 }
 
-.future-project-items li:hover {
-    text-decoration: underline;
-}
-
 .future-projects a {
     text-decoration: none;
     color: inherit;
 }
 
 /*Future projects end*/
+
+/*Skills section start*/
+.skills-block {
+    display: block;
+    background-color: #3C3C3C;
+    min-height: 98vh;
+    max-height: 98vh;
+    padding: 15% 10%;
+    vertical-align: middle;
+}
+
+.h2-skills {
+    color: #ffffff;
+}
+
+.skills {
+    text-align: left;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+    border-radius: 4px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #4a4a4a);
+}
+
+.html {
+    width: 70%;
+    background-color: rgb(30,144,255);
+}
+
+.css {
+    width: 60%;
+    background-color: rgb(30,144,255); 
+}
+
+.java {
+    width: 20%;
+    background-color: rgb(30,144,255); 
+}
+
+.markt {
+    width: 90%;
+    background-color: rgb(30,144,255); 
+}
+
+.graf {
+    width: 90%;
+    background-color: rgb(30,144,255); 
+}
+
+
+/*Skills section end*/
 
 /*About start*/
 .about {
@@ -396,5 +453,23 @@
     color: #BDE6EC;
     transition: 0.4s ease;
 }
-
 /*Contact section end*/
+
+/*Footer section starts*/
+
+.social-navbar {
+    margin: 1% 45%;
+    width: 10%;
+    display: inline-block;
+}
+
+.social-navbar img {
+    color: #ffffff;
+}
+
+.social-navbar a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Footer section ends*/
