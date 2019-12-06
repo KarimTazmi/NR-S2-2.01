@@ -277,7 +277,7 @@
 }
 
 .future-project-items li:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .future-project-items li::after {
@@ -335,7 +335,7 @@
 
 .css {
     width: 60%;
-    background-color: rgb(30,144,255); 
+    background-color: rgb(30,144,255);
 }
 
 .java {
